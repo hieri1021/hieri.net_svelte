@@ -23,7 +23,7 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
 # devcontainer
-.devcontainer
+.devcontainer/
 
 # vscode
-.vscode
+.vscode/
