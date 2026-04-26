@@ -27,3 +27,7 @@ vite.config.ts.timestamp-*
 
 # vscode
 .vscode/
+
+# json
+package-lock.json
+wrangler.jsonc
