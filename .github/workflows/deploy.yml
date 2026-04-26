@@ -26,5 +26,5 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy .svelte-kit/cloudflare --project-name=hieri-net
+          accountId: b31747f44b62a5a49272a2bbd2db17d9
+          command: pages deploy .svelte-kit/cloudflare --project-name=hieri-net --branch=main
